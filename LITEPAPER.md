@@ -1,10 +1,10 @@
-### Pistis: a comprehensive financial reputation protocol
+# <p align="center"> Pistis: a comprehensive financial reputation protocol
 
-Kirill Demishev, Dmitrii Mingalev
+<p align="center">Kirill Demishev, Dmitrii Mingalev
 
-paper@pistis.network
+<p align="center">paper@pistis.network
 
-[https://pistis.network](https://pistis.network)
+<p align="center">https://pistis.network
 
 
 ## Abstract
