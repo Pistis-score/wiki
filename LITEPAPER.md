@@ -103,7 +103,7 @@ To decrease the fee for recalculation jobs some DeFi protocols could ask for the
 
 
 
-![alt_text](images/Pistis_loan_flow.jpg "Pists loan flow")
+<img src="https://github.com/Pistis-score/wiki/blob/main/images/Pistis_loan_flow.jpg" width="600">
 
 
 The flow above is an example of how the DeFi protocol could interact with the Pistis protocol. In case the protocol works on another blockchain and doesn’t persist on Ethereum, Chainlink services will be added to the process as a bridge between blockchains.
@@ -148,7 +148,7 @@ Below is the scheme for how the loan request fee will be distributed:
 
 
 
-![alt_text](images/Pistis_loan_request_fee_distribution.jpg "Pistis Loan request fee distribution")
+<img src="https://github.com/Pistis-score/wiki/blob/main/images/Pistis_loan_request_fee_distribution.jpg" width="600">
 
 
 The fee for recalculation that includes adding a new source of data to Pistis NFT will be different since Arweave will be added to the scheme.
