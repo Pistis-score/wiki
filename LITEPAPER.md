@@ -22,10 +22,9 @@ Loans in DeFi are currently useless to most people since to borrow some tokens y
 The reputation of any person is always a composable entity. The financial reputation of a DeFi user could be composed of three main parts: DeFi reputation score, TradFi reputation score, and Personal reputation score.
 
 
-
-
-
-![alt_text](images/Pistis_reputation_components.jpg "Pists reputation components")
+<p align="center">
+  <img src="https://github.com/Pistis-score/wiki/blob/main/images/Pistis_reputation_components.jpg">
+</p>
 
 
 DeFi score is a number that reflects all operations of the user with all DeFi protocols, from all user’s addresses in all blockchains. It also should take into account historical data of all addresses linked to the user's reputation score.
@@ -100,13 +99,12 @@ To decrease the fee for recalculation jobs some DeFi protocols could ask for the
 
 
 ## 6. Loan issuance general flow
-
-
-
-<img src="https://github.com/Pistis-score/wiki/blob/main/images/Pistis_loan_flow.jpg" width="600">
-
-
+  
 The flow above is an example of how the DeFi protocol could interact with the Pistis protocol. In case the protocol works on another blockchain and doesn’t persist on Ethereum, Chainlink services will be added to the process as a bridge between blockchains.
+  
+  <p align="center">
+  <img src="https://github.com/Pistis-score/wiki/blob/main/images/Pistis_loan_flow.jpg" width="600">
+</p>
 
 
 ## 7. Loan guarantee
@@ -146,10 +144,9 @@ The PSTS token is an ERC-20 token issued to keep the protocol working. It’s us
 
 Below is the scheme for how the loan request fee will be distributed:
 
-
-
-<img src="https://github.com/Pistis-score/wiki/blob/main/images/Pistis_loan_request_fee_distribution.jpg" width="600">
-
+<p align="center">
+  <img src="https://github.com/Pistis-score/wiki/blob/main/images/Pistis_loan_request_fee_distribution.jpg" width="600">
+</p>
 
 The fee for recalculation that includes adding a new source of data to Pistis NFT will be different since Arweave will be added to the scheme.
 
