@@ -1,4 +1,4 @@
-# <p align="center"> Pistis: a comprehensive financial reputation protocol
+# <p align="center"> Pistis: a comprehensive financial reputation
 
 <p align="center">Kirill Demishev, Dmitrii Mingalev
 
