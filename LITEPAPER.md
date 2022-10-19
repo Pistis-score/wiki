@@ -50,6 +50,10 @@ Integration with Arweave allows for permanently storing the list of off-chain da
 
 Below is a scheme of the core components that participate in Pistis score composition, including Pistis protocol:
 
+<p align="center">
+  <img src="https://github.com/Pistis-score/wiki/blob/main/images/Pistis_score_components.jpg">
+</p>
+
 
 ### 3.1. Pistis NFT
 
