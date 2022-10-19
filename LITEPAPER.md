@@ -70,9 +70,9 @@ Pistis is a transferable token. The incentive not to share it is the possibility
 
 ## 4. DAO
 
-Pistis DAO is the entity that governs Pistis protocol. Initially, the governance will be linked to Pistis NFT and PIS ERC-20 tokens (see section 9 for details) where 
+Pistis DAO is the entity that governs Pistis protocol. Initially, the governance will be linked to Pistis NFT and PSTS ERC-20 tokens (see section 9 for details) where 
 
-_Voting Power = 1 Pistis NFT * (amount of PIS)_
+_Voting Power = 1 Pistis NFT * (amount of PSTS)_
 
 Another DAO responsibility is to manage the vault growing and developing the Community and Pistis product.
 
@@ -92,7 +92,7 @@ Pistis Nodes have a simple and important purpose - calculate, recalculate and pl
 7. Those selected nodes that provided the master node with incorrect values are penalized
 8. In case some selected node is unavailable it gets blocked for a while and then penalized.
 
-A Proof-of-Stake mechanism will be implemented for nodes which means all of them will stake some PIS tokens (see section 9 for details).
+A Proof-of-Stake mechanism will be implemented for nodes which means all of them will stake some PSTS tokens (see section 9 for details).
 
 In the first stages of the project, the nodes will be run by the Pistis foundation. Later on, any user could run their nodes by setting up equipment that meets minimal requirements and staking some funds. The reward will be a part of the service fee paid by the user or the organization on behalf of the user.
 
@@ -134,7 +134,7 @@ In case of permanent relocation to the Metaverse and inability to use Pistis rep
 
 ## 9. Tokenomics
 
-The PIS token is an ERC-20 token issued to keep the protocol working. It’s used as:
+The PSTS token is an ERC-20 token issued to keep the protocol working. It’s used as:
 
 
 
@@ -153,9 +153,9 @@ Below is the scheme for how the loan request fee will be distributed:
 
 The fee for recalculation that includes adding a new source of data to Pistis NFT will be different since Arweave will be added to the scheme.
 
-Assuming to complete the user's operation Pistis protocol needs to pay N PIS to Ceramic, Chainlink, and Arweave. Pistis nodes will get 0.3*N PIS and Pistis DAO will get 0.13*N PIS so the total fee would be equal to 1.43*N PIS. This formula is flexible and could be edited by the DAO in a later stage when Pistis is decentralized enough.
+Assuming to complete the user's operation Pistis protocol needs to pay N PSTS to Ceramic, Chainlink, and Arweave. Pistis nodes will get 0.3*N PSTS and Pistis DAO will get 0.13*N PSTS so the total fee would be equal to 1.43*N PSTS. This formula is flexible and could be edited by the DAO in a later stage when Pistis is decentralized enough.
 
-PIS token is non-mintable with an initial issue of 1 Billion PIS. Below is the distribution of PIS tokens. Lock and vesting terms could be discovered in [the tokenomics paper](https://docs.google.com/spreadsheets/d/1hAkPjArqPrFdOE9XcyTWWPfmJkQwzYRhfyj0wSZjjlo/edit?usp=sharing).
+PSTS token is non-mintable with an initial issue of 1 Billion PSTS. Below is the distribution of PSTS tokens. Lock and vesting terms could be discovered in [the tokenomics paper](https://docs.google.com/spreadsheets/d/1hAkPjArqPrFdOE9XcyTWWPfmJkQwzYRhfyj0wSZjjlo/edit?usp=sharing).
 
 
 ## 10. Conclusion
