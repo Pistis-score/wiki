@@ -1,3 +1,7 @@
+<p align="center">
+<a href="https://github.com/PlushFamily/plush-protocol-contracts" target="blank"><img src="https://user-images.githubusercontent.com/9155259/199185204-06e0d120-5cbf-46b9-a817-b05634170003.svg" width="120" alt="Pistis logo" /></a>
+</p>
+
 # <p align="center"> Pistis: a comprehensive financial reputation
 
 <p align="center">Kirill Demishev, Dmitrii Mingalev
