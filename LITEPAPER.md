@@ -46,11 +46,11 @@ Pistis protocol is a set of smart contracts with the following functionality:
 
 
 
-1. Issue and reissue Pistis live soulbound NFT
-2. Lock and burn Pistis NFT
+1. Issue and reissue Pistis soulbound dNFT
+2. Lock and burn Pistis Token
 3. Interact with data storages (Ceramic and Arweave)
 
-Integration with Arweave allows for permanently storing the list of off-chain data sources of each token while Ceramic integration helps to store historical data of NFTs.
+Integration with Arweave allows for permanently storing the list of off-chain data sources of each token while Ceramic integration helps to store historical data of tokens.
 
 Below is a scheme of the core components that participate in Pistis score composition, including Pistis protocol:
 
@@ -59,9 +59,9 @@ Below is a scheme of the core components that participate in Pistis score compos
 </p>
 
 
-### 3.1. Pistis NFT
+### 3.1. Pistis Token
 
-Pistis NFT is the cornerstone of the Pistis Protocol. It is a live soulbound NFT that has several purposes:
+Pistis Token is the cornerstone of the Pistis Protocol. It is a soulbound dynamic NFT that has several purposes:
 
 
 
@@ -69,24 +69,24 @@ Pistis NFT is the cornerstone of the Pistis Protocol. It is a live soulbound NFT
 2. Store user’s DeFi reputation along with the date it was calculated
 3. Store user’s TradFi reputation along with the date it was calculated
 4. Store user’s Personal reputation along with the date it was calculated
-5. Manage access to the data linked to the Pistis NFT
+5. Manage access to the data linked to the Pistis Token
 6. Governance of the protocol
 
-Pistis is a transferable token. The incentive not to share it is the possibility that other people ruin the user's reputation. This feature also widens the number of Pistis NFT use cases. Communities, DAOs, companies, and other organizations could create this token for themselves in the future and grow their reputation to get access to under-collateralized loans in DeFi.
+Pistis is a transferable token. The incentive not to share it is the possibility that other people ruin the user's reputation. This feature also widens the number of Pistis Token use cases. Communities, DAOs, companies, and other organizations could create this token for themselves in the future and grow their reputation to get access to under-collateralized loans in DeFi.
 
 
 ## 4. DAO
 
-Pistis DAO is the entity that governs Pistis protocol. Initially, the governance will be linked to Pistis NFT and PSTS ERC-20 tokens (see section 9 for details) where 
+Pistis DAO is the entity that governs Pistis protocol. Initially, the governance will be linked to Pistis Token and PSTS ERC-20 tokens (see section 9 for details) where 
 
-_Voting Power = 1 Pistis NFT * (amount of PSTS)_
+_Voting Power = 1 Pistis Token * (amount of PSTS)_
 
 Another DAO responsibility is to manage the vault growing and developing the Community and Pistis product.
 
 
 ## 5. Pistis Nodes
 
-Pistis Nodes have a simple and important purpose - calculate, recalculate and place the scores in the NFT as metadata. The process of calculation is as follows:
+Pistis Nodes have a simple and important purpose - calculate, recalculate and place the scores in the Token as metadata. The process of calculation is as follows:
 
 
 
@@ -94,7 +94,7 @@ Pistis Nodes have a simple and important purpose - calculate, recalculate and pl
 2. Selected nodes retrieve the token data from Ceramic, Arweave, and Chainlink.
 3. Selected nodes calculate the scores and send the final results to the master node.
 4. The master node calculates the median result.
-5. The master node runs a smart contract that changes the scores on NFT and writes the updated data to Ceramic.
+5. The master node runs a smart contract that changes the scores on dNFT and writes the updated data to Ceramic.
 6. Selected nodes that provided the master node with correct values (error &lt;= 5%) get rewarded.
 7. Those selected nodes that provided the master node with incorrect values are penalized
 8. In case some selected node is unavailable it gets blocked for a while and then penalized.
@@ -121,16 +121,16 @@ We understand that the most difficult part for users is to start using the proto
 
 Users can temporarily increase their score by asking another user with a higher score to be their guarantee for a certain loan. The guarantee will stake some funds and their reputation to vouch for a user. In case the user fulfills their obligations the guarantee receives his stake back with a reward. Otherwise, the staked amount will be lost and the reputation will suffer significantly.
 
-Moreover, to start a new DAO and boost its growth, founders will be able to stake their Pistis NFTs together to be able to get undercollateralized loans for their DAO business development. 
+Moreover, to start a new DAO and boost its growth, founders will be able to stake their Pistis Tokens together to be able to get undercollateralized loans for their DAO business development. 
 
 
 ## 8. Social mechanics
 
-To create a working protocol we are confident that Pistis NFT should belong to the user during their whole life. But life is long and there are two issues that Pistis needs to address:
+To create a working protocol we are confident that Pistis Token should belong to the user during their whole life. But life is long and there are two issues that Pistis needs to address:
 
 
 
-1. Pistis NFT is lost or stolen.
+1. Pistis Token is lost or stolen.
 2. The user relocated to the metaverse forever and doesn’t need the token anymore but unable to burn it.
 
 For lost and stolen tokens Pistis will use the social recovery option, where the user's family and friends could recover the token for a selected address and burn the previously minted token. Unfortunately, currently, there is no way to recover a Pistis score on the token in case it was damaged by the violator unless the damage is compensated. The plush family protocol will be used to build a decentralized social graph of the user.
@@ -147,7 +147,7 @@ The PSTS token is an ERC-20 token issued to keep the protocol working. It’s us
 1. Calculation fee
 2. Staking reward
 3. Node running reward
-4. Governance voting power along with Pistis NFT
+4. Governance voting power along with Pistis Token
 5. Protocol development incentive
 
 Below is the scheme for how the loan request fee will be distributed:
@@ -156,7 +156,7 @@ Below is the scheme for how the loan request fee will be distributed:
   <img src="https://github.com/Pistis-score/wiki/blob/main/images/Pistis_loan_request_fee_distribution.jpg" width="600">
 </p>
 
-The fee for recalculation that includes adding a new source of data to Pistis NFT will be different since Arweave will be added to the scheme.
+The fee for recalculation that includes adding a new source of data to Pistis Token will be different since Arweave will be added to the scheme.
 
 Assuming to complete the user's operation Pistis protocol needs to pay N PSTS to Ceramic, Chainlink, and Arweave. Pistis nodes will get 0.3*N PSTS and Pistis DAO will get 0.13*N PSTS so the total fee would be equal to 1.43*N PSTS. This formula is flexible and could be edited by the DAO in a later stage when Pistis is decentralized enough.
 
@@ -172,7 +172,7 @@ We have proposed a reputation system that will add real value to DeFi protocols 
 1. Decentralized
 2. Owned by the user
 3. Could be proofed preserving user’s privacy
-4. Linked to the live soulbound NFT and thus updatable
+4. Linked to the soulbound dNFT and thus updatable
 5. Based on DeFi, TradFi, and Personal data
 6. Considering multiple addresses on different blockchains interacted with different protocols
 7. Designed to be cultivated through the whole life of its owner and beyond
