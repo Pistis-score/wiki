@@ -10,6 +10,7 @@
 
 <p align="center">https://pistis.network
 
+<p align="center">ver. 1.05
 
 ## Abstract
 
